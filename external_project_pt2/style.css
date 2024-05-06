@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sedan+SC&display=swap');
+
+/*
+font-family: 'Sedan SC';
+font-family: 'Abel';
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    background: #f505b9;
+    font-family: Abel;
+    color: #000000;
+    padding: 10px;
+}
+
+body {
+    margin:0;
+}
+
+/* nav work */
+
+nav {
+    background: rgb(245, 50, 203);
+    padding: 10px;
+    color:#000000; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 1px;
+}
+
+nav ul li a {
+    text-decoration: wavy;
+    background: #ebd3fc;
+    color: #000000;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #32f3d9;
+    color: #000000;
+}
+
+nav ol {
+    list-style: none;
+    padding: 10px;
+    display:list-item;
+    justify-content:center;
+}
+
+nav ol li {
+    margin: 1px;
+}
+
+nav ol li a {
+    text-decoration: wavy;
+    background: #ebd3fc;
+    color: #000000;
+    padding: 40px;
+    display:inline-block;
+    border-radius: 10px;
+}
+
+nav ol li a:hover {
+    background: #32f3d9;
+    color: #000000;
+}
+
+
+header {
+    padding: 10px 0;
+    background-image: 
+    url('images/hero-graphic1.png');
+    height: 250px;
+    background-size: cover;
+    background-position: 10%; 
+    position: relative;
+}
+
+header h1 {
+    margin-top: 50px;
+    font-family: Sedan SC;
+    font-size: 5rem;
+    color: #ffffff;
+    position: absolute;
+    left: 30%;
+
+}
+
+section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: Sedan SC;
+}
+
+section p {
+    padding: 10px;
+    font-family: Abel; 
+    font-size: 1.5rem;
+}
+
+main {
+    background-color: #d2faf4;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main section {
+    flex: 1 1 33%;
+}
+
+main section img {
+    max-width: 100%;
+    padding: 0 15px;
+    padding-top: 15px;
+    position: relative;
+}
+
+
+
+
